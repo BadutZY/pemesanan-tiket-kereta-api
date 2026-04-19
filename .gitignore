@@ -1,0 +1,25 @@
+# Folder dependency
+vendor/
+
+# File sistem
+.DS_Store
+Thumbs.db
+
+# Log
+*.log
+
+# File environment
+.env
+
+# Build / cache
+node_modules/
+dist/
+build/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# File sementara
+*.tmp
+*.swp
