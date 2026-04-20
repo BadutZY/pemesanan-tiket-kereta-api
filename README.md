@@ -46,8 +46,8 @@
    php artisan serve
    ```
 
-   Buka browser: **http://localhost:8000**
+   Buka browser: **http://127.0.0.1:8000/**
 
 ---
 
-Dibuat untuk tugas praktik Laravel — Sistem Pemesanan Tiket Kereta Api
+Dibuat untuk tugas praktik Laravel - Sistem Pemesanan Tiket Kereta Api
