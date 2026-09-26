@@ -21,9 +21,6 @@ return Application::configure(basePath: dirname(__DIR__))
         },
     )
     ->withMiddleware(function (Middleware $middleware) {
-        // Global web middleware sudah otomatis di Laravel 11+
-
-        // Daftarkan alias middleware kustom
         $middleware->alias([
             'guest.kai' => \App\Http\Middleware\GuestMiddleware::class,
             'admin'     => \App\Http\Middleware\AdminMiddleware::class,
@@ -31,5 +28,4 @@ return Application::configure(basePath: dirname(__DIR__))
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
-        // Konfigurasi exception handling jika diperlukan
     })->create();
